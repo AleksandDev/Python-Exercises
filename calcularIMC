@@ -3,7 +3,7 @@ def calcularIMC():
   altura = float(input("Digite sua altura: "))
   IMC = peso / (altura * altura)
   return IMC
-print(calcularIMC())
+  print(calcularIMC())
 
 def determinar_categoria():
   peso = float(input("Digite seu peso: "))
